@@ -1,5 +1,9 @@
 public class MaquinaExpendedoraSimple {
-    
+    // Álvaro Martínez Carrasco
+    /*
+     * 9-10-2026
+     * 20:02
+     */
     // El precio del billete
     private int precioBillete;
     // La cantidad de dinero que lleva metida el cliente actual
@@ -17,11 +21,11 @@ public class MaquinaExpendedoraSimple {
      * del billete que se recibe es mayor que 0.
      */
     public MaquinaExpendedoraSimple(int precioDelBillete, String origen, String destino) {
-        precioBillete = precioDelBillete;
+        precioBillete = 20;
         balanceClienteActual = 0;
-        totalDineroAcumulado = 0;
-        estacionOrigen = origen;
-        estacionDestino = destino;
+        balanceClienteActual = 0;
+        estacionOrigen = "León";    
+        estacionDestino = "Granada" ;
     }
 
     /**
